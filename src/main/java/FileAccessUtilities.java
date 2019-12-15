@@ -48,7 +48,6 @@ public class FileAccessUtilities {
      * @param path
      * @return true if the path exists, false otherwise
      */
-
     public boolean fileExists(String path) {
         if (!(path.contains("/Users"))) {
             path = path.replace("Users", "/Users");
